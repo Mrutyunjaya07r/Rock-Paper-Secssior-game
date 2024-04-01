@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+    color: black;
+}
+.msg1{
+    background-color: rgb(6, 6, 100);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    font-size: 2rem;
+
+}
+.your{
+    text-align: center;
+}
+.comp{
+    text-align: center;
+}
+#msg2{
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 750px;
+    border-radius: 1rem;
+}
